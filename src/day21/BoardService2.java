@@ -11,7 +11,7 @@ public class BoardService2 {//class s
 
         Scanner scan = new Scanner(System.in); // 입력 객체 선언
 
-        //BoardService1 에서 변수를 사용했는데 왜 배열 변수를 사용할까?--> 여러개의 변수에 있는 데이터를 배열로 사용하면 관리가 편하다
+        // BoardService1에서 변수를 사용했는데 왜 배열 변수를 사용할까?--> 여러개의 변수에 있는 데이터를 배열로 사용하면 관리가 편하다
 
         //배열이란? 여러개의 동일한 타입의 데이터들을 *하나의 변수*에 저장할 수 있는 타입(참조타입)
         //ㄴ 인덱스란? 배열내 저장된 데이터들의 저장 순서 번호--> 인덱스 번호는 0번 부터 최대 길이까지 부여
@@ -61,7 +61,6 @@ public class BoardService2 {//class s
 
                 }// for e
                 //for 종료후에 save 변수 값이 ture 이면 성공 false 이면 실패
-
                 if (save = false) { // 또는  if (!false)
                     System.out.println("게시물 쓰기 실패:빈 공간이 없습니다");
                 } else {
