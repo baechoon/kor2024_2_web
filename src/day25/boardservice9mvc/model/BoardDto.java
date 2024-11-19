@@ -1,4 +1,4 @@
-package day23.boardService8mvc.model;
+package day25.boardservice9mvc.model;
 
 public class BoardDto {
 
