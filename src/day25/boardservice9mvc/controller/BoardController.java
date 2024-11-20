@@ -1,13 +1,11 @@
 package day25.boardservice9mvc.controller;
 
-
 import day25.boardservice9mvc.model.BoardDao;
 import day25.boardservice9mvc.model.BoardDto;
 
 import java.util.ArrayList;
 
 public class BoardController {
-
     // 싱글톤
     private static BoardController boardController = new BoardController();
     private BoardController(){}
@@ -36,18 +34,4 @@ public class BoardController {
         // 3. dao 에게 응답받은 결과를 view 응답하기
         return result; // - return 현재 메소드가 종료되면서 반환되는 값
     } // e end
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
